@@ -1,0 +1,294 @@
+all_awardings,associated_award,author,author_flair_background_color,author_flair_css_class,author_flair_richtext,author_flair_template_id,author_flair_text,author_flair_text_color,author_flair_type,author_fullname,author_patreon_flair,author_premium,awarders,body,collapsed_because_crowd_control,comment_type,created_utc,gildings,id,is_submitter,link_id,locked,no_follow,parent_id,permalink,retrieved_on,score,send_replies,stickied,subreddit,subreddit_id,top_awarded_type,total_awards_received,treatment_tags
+[],,Lost_Piece_1911,,,[],,,,text,t2_a9ze6n7c,False,False,[],"Just be honest that you and the other person are one and the same haha.
+
+Theres mixing but much much slower. The turbulence wont be occur; the heavier denser water stays below the fresh water.",,,1615398675,{},gqgzgb9,False,t3_m239f6,False,True,t3_m239f6,/r/oceanography/comments/m239f6/is_there_no_mix_of_freshwater_and_seawater_in_the/gqgzgb9/,1615402125,2,True,False,oceanography,t5_2rez7,,0,[]
+[],,JoaSnick,,,[],,,,text,t2_3ajbpkge,False,False,[],"Not in the case when the evaporation in the ""plug area"" is strong enough to create that wall of dense water. But I guess that State is strongly dependent on seasonal cycles. And if there is lots of Wind or other strong tidal currents, for example, they could probably break through the plug. 
+
+But that is only my understanding...",,,1615393859,{},gqgmfw9,False,t3_m1zq80,False,True,t1_gqgkjxq,/r/oceanography/comments/m1zq80/can_anyone_explain_the_red_line/gqgmfw9/,1615395344,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,RoundAlternative1106,,,[],,,,text,t2_541k3mzu,False,False,[],So there not at all mixing of seawater and freshwater?,,,1615393108,{},gqgkjxq,True,t3_m1zq80,False,True,t1_gqgi34f,/r/oceanography/comments/m1zq80/can_anyone_explain_the_red_line/gqgkjxq/,1615394345,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,JoaSnick,,,[],,,,text,t2_3ajbpkge,False,False,[],"If I remember correctly, this ""plug"" is the area where landwards and seawards the water density decreases. Due to high evaporation in that area, you will also find that super-dense water on the surface. So you kind of have a vertical wall of dense water that makes it hard or even impossible for seawater or water from the river to breake through it. Hence river water won't mix with the seawater behind that ""plug"".",,,1615392146,{},gqgi34f,False,t3_m1zq80,False,True,t3_m1zq80,/r/oceanography/comments/m1zq80/can_anyone_explain_the_red_line/gqgi34f/,1615393093,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,chuckles11,,,[],,,,text,t2_1og4h0py,False,False,[],"Oh interesting, is your work (or the method your work is based off of) available in some sort of publication I could look at?",,,1615300273,{},gqbwlne,True,t3_m0gkp0,False,True,t1_gqan21f,/r/oceanography/comments/m0gkp0/ocean_upwelling_data_thats_free_to_the_public/gqbwlne/,1615300285,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,hobbitNZ,,,[],,,,text,t2_5me2p,False,False,[],"I’ve used NOAA SST data alongside NCEP wind stress data to calculate regional Ekman induced upwelling and downwelling. This was a while ago, but could still be viable for you.",,,1615264901,{},gqan21f,False,t3_m0gkp0,False,True,t3_m0gkp0,/r/oceanography/comments/m0gkp0/ocean_upwelling_data_thats_free_to_the_public/gqan21f/,1615266036,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,stayschemin_17,,,[],,,,text,t2_35awclhu,False,False,[],The Puget Sound in Seattle has some really interesting upwelling patterns. Sorry I can’t tell you exactly where to look for the data but there are lots of public groups that publish data about it,,,1615246260,{},gq9pk6n,False,t3_m0gkp0,False,True,t3_m0gkp0,/r/oceanography/comments/m0gkp0/ocean_upwelling_data_thats_free_to_the_public/gq9pk6n/,1615250225,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,BluScr33n,,,[],,,,text,t2_xa2rs,False,False,[],"i'm pretty sure every student of (physical) oceanography has read this book lol.
+
+https://www.oercommons.org/courses/dr-robert-stewarts-physical-oceanography-class-page/view",,,1615242208,{},gq9hksw,False,t3_m0nypl,False,True,t3_m0nypl,/r/oceanography/comments/m0nypl/newcomer_to_oceanography/gq9hksw/,1615246421,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,spac3funk,,,[],,,,text,t2_14uyah,False,False,[],"Hello a newbie myself . So totally off topic , disclosing astrology interest to the scientific community is a bad idea . You will get ridiculed at some point . I’m a Scorpio, my best friends are Cancers (water &amp; water ) . Both of my previous bosses are are scorps and worked with aquatic life . So yeah we are made for it .",,,1615236158,{},gq9433m,False,t3_m0nypl,False,True,t3_m0nypl,/r/oceanography/comments/m0nypl/newcomer_to_oceanography/gq9433m/,1615239928,2,True,False,oceanography,t5_2rez7,,0,[]
+[],,Chlorophilia,,,[],,,,text,t2_idccd,False,False,[],"It depends on whether you're happy to infer upwelling from SST, or whether you need the actual velocity data. 
+
+If it's just SST you want, obtaining these data is easy and I would recommend using ERA5. As /u/Mafa_windgesang suggested, it is also possible to calculate the wind-driven component of upwelling from wind stress data in ERA5, but I honestly wouldn't recommend this as, without a background in oceanography and basic programming, this could be painful.
+
+There is a more straightforward way of getting the vertical velocities, namely by using the output of a numerical model. A good example is the [GLORYS12V1](https://resources.marine.copernicus.eu/?option=com_csw&amp;view=details&amp;product_id=GLOBAL_REANALYSIS_PHY_001_030) reanalysis from CMEMS where you can obtain the estimated vertical velocities at different depth layers from 1993-2019. This is not quite as easy as just downloading a geotiff, as practically all large datasets in Earth Sciences are in the netcdf format, although it may still be possible to import this into QGIS. Otherwise, there are several netcdf viewers out there such as Panoply. If you wanted estimates of vertical velocities for right now, CMEMS also has a forecast model that you can use (but these data have more uncertainty than the reanalysis).",,,1615225980,{},gq8gg99,False,t3_m0gkp0,False,True,t3_m0gkp0,/r/oceanography/comments/m0gkp0/ocean_upwelling_data_thats_free_to_the_public/gq8gg99/,1615227905,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,chuckles11,,,[],,,,text,t2_1og4h0py,False,False,[],Thank you! I will explore this.,,,1615222890,{},gq88x32,True,t3_m0gkp0,False,True,t1_gq7oyq1,/r/oceanography/comments/m0gkp0/ocean_upwelling_data_thats_free_to_the_public/gq88x32/,1615224037,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,chuckles11,,,[],,,,text,t2_1og4h0py,False,False,[],Ah thanks! Yeah my interest is in Ekman Upwelling right now (but your mention of other types of upwelling intrigues me). I'll check this out! And to answer your threaded question I've been mainly sticking with open source for budget reasons. I'd love to use some ESRI software but it's QGIS for me...,,,1615222879,{},gq88w5c,True,t3_m0gkp0,False,True,t1_gq7rtk8,/r/oceanography/comments/m0gkp0/ocean_upwelling_data_thats_free_to_the_public/gq88w5c/,1615224023,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,Mafa_windgesang,,,[],,,,text,t2_5psh2lt4,False,False,[],"Another good way of approaching it, especially if you have some experience in data analysis, is to explore the ERA5 reanalysis dataset. Using wind velocity and Ekman’s theory you can derive the integrated transport and the vertical current speed. There are other types of upwelling you can explore but Ekman is always a good place to start.",,,1615216527,{},gq7u49k,False,t3_m0gkp0,False,True,t3_m0gkp0,/r/oceanography/comments/m0gkp0/ocean_upwelling_data_thats_free_to_the_public/gq7u49k/,1615216548,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,Lost_Piece_1911,,,[],,,,text,t2_a9ze6n7c,False,False,[],"Go read the other posts and replies! So you all know eachother and ask very similar questions, hookay.
+
+You dont seem to like the answer: you can call it a partial barrier but I wouldnt. They will be mixing at a slower rate. Its not a layer or a line; its just a spot where two water masses meet and mix slowly because of differences in physical properties.",,,1615131911,{},gq3ss3v,False,t3_lzqkkt,False,True,t1_gq3qsxs,/r/oceanography/comments/lzqkkt/debate_on_seas_meeting/gq3ss3v/,1615131923,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,learningeverythings,,,[],,,,text,t2_ardom6c8,False,False,[],"If the ""other one"" is one creating a computer simulation of water then yes, he is also my friend but I am not debating with him(RoundAlternative).  
+HE gives me the idea to ask it on Reddit.  
+Does my friend's (not project one ) statement is right is there a barrier distinguish their temperature, density, etc?",,,1615130851,{},gq3qsxs,True,t3_lzqkkt,False,True,t1_gq3paxe,/r/oceanography/comments/lzqkkt/debate_on_seas_meeting/gq3qsxs/,1615130862,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,Lost_Piece_1911,,,[],,,,text,t2_a9ze6n7c,False,False,[],"I have a sneaking suspicioun this brand new account is related to the other one asking all the pycnocline questions.
+
+Read the other replies from the other pycnocline posts. They still mix, it is a permeable boundary which slows mixing becuase of physical properties. Pycnocline = change in density but also haloclone=change in salinity and thermocline= change in heat.
+
+All these occur between major water masses. They slide on eachother and mix, but those gradients exist for a reason: heat transfers 100x faster than salinity, so as waters warm they rise, and as they gain more salinity or density they sink. This overturning is slow in huge masses but fast in turbulent coastlines",,,1615130003,{},gq3paxe,False,t3_lzqkkt,False,True,t3_lzqkkt,/r/oceanography/comments/lzqkkt/debate_on_seas_meeting/gq3paxe/,1615130014,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,learningeverythings,,,[],,,,text,t2_ardom6c8,False,False,[],Consider all seas,,,1615126658,{},gq3jw7b,True,t3_lzqkkt,False,True,t1_gq3il9i,/r/oceanography/comments/lzqkkt/debate_on_seas_meeting/gq3jw7b/,1615126668,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,crocomut,,,[],,,,text,t2_4harn,False,False,[],https://i.imgur.com/IScXA3b.png,,,1614818118,{},gplkfxs,False,t3_lwlses,False,True,t3_lwlses,/r/oceanography/comments/lwlses/can_anyone_clear_my_doubt/gplkfxs/,1614972024,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,Lost_Piece_1911,,,[],,,,text,t2_a9ze6n7c,False,False,[],"Descriptive Phys Oceanography, 6th edition, Talley and others",,,1614782795,{},gpjdpp2,False,t3_lwlses,False,False,t1_gpj5nfc,/r/oceanography/comments/lwlses/can_anyone_clear_my_doubt/gpjdpp2/,1614930193,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,xossiane,,,[],,,,text,t2_618350d3,False,False,[],definitely a coral,,,1614781303,{},gpjamht,False,t3_ldj9zp,False,True,t3_ldj9zp,/r/oceanography/comments/ldj9zp/can_someone_tell_me_what_this_is/gpjamht/,1614928614,0,True,False,oceanography,t5_2rez7,,0,[]
+[],,RoundAlternative1106,,,[],,,,text,t2_541k3mzu,False,False,[],"Thanks for helping ...
+Can you suggest a book on physics oceanography",,,1614778654,{},gpj5nfc,True,t3_lwlses,False,False,t1_gpj0v2w,/r/oceanography/comments/lwlses/can_anyone_clear_my_doubt/gpj5nfc/,1614926109,2,True,False,oceanography,t5_2rez7,,0,[]
+[],,Lost_Piece_1911,,,[],,,,text,t2_a9ze6n7c,False,False,[],"The pycnocline isnt a brick wall, mixing will occur at that point. It will be a barrier to some and slows mixing down, water does not want to flow into the path of resistance, but the water on either side will move and create turbulence, mixing the two together.
+
+To understand this mixing, look up TS diagrams, temperature/salinity graphs. This tells a little more about how two water masses like this mix.",,,1614775708,{},gpj0v2w,False,t3_lwlses,False,False,t1_gpizo3s,/r/oceanography/comments/lwlses/can_anyone_clear_my_doubt/gpj0v2w/,1614923761,4,True,False,oceanography,t5_2rez7,,0,[]
+[],,RoundAlternative1106,,,[],,,,text,t2_541k3mzu,False,False,[],"Thanks for helping
+One last Question :On Wikipedia page of Pycnonline they write  ""vertical mixing across a pycnonline is regular phenomenon in oceans,and occurs through shear produced turbulence""
+But in physics function of Pycnonline they have written ""pycnonline act as barrier to vertical circulation circulation""
+So Q is that pycnonline act barrier but water can mixing by physics means i.e turbulence,tides etc ?",,,1614774882,{},gpizo3s,True,t3_lwlses,False,False,t1_gpiyuyx,/r/oceanography/comments/lwlses/can_anyone_clear_my_doubt/gpizo3s/,1614923177,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,Lost_Piece_1911,,,[],,,,text,t2_a9ze6n7c,False,False,[],"POceanographer here, this is my jam. 
+
+Dont think of brackish water as a solid block like that, brackish will be up the river tidally. What I mean to say is that there will be mixing constantly, and depending on the tides, the pycnocline can be more vertical or more horizontal. A pycnocline is a rapid change in density with change in depth, a gradient that makes mixing tougher, but its not its own layer. The most dramatic example is oil and water not mixing and layering themselves.
+
+Your latter is correct, mixing is always occurring through tides and winds. Brackish water is upstream. Ocean salinity is lets say 30ish psu (salinity units, how salty), and fresh is little to none. Brackish is well mixed upstream water. Water masses like these will rarely fully mix when in stream but wedge over and under eachother, with the denser seawater pushing under the lighter freshwater.",,,1614774306,{},gpiyuyx,False,t3_lwlses,False,False,t3_lwlses,/r/oceanography/comments/lwlses/can_anyone_clear_my_doubt/gpiyuyx/,1614922791,8,True,False,oceanography,t5_2rez7,,0,[]
+[],,[deleted],,,,,,dark,,,,,[],[deleted],,,1614756661,{},gpifjqz,False,t3_lwlses,False,True,t3_lwlses,/r/oceanography/comments/lwlses/can_anyone_clear_my_doubt/gpifjqz/,1614913695,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,Lost_Piece_1911,,,[],,,,text,t2_a9ze6n7c,False,False,[],"Definitely not new, but I love that its being talked about. Should be a bigger deal. Changing earth =/= just sea level rise.",,,1614721649,{},gpgp86o,False,t3_lwbyp9,False,True,t3_lwbyp9,/r/oceanography/comments/lwbyp9/atlantic_ocean_circulation_at_weakest_in_a/gpgp86o/,1614725986,2,True,False,oceanography,t5_2rez7,,0,[]
+[],,Lost_Piece_1911,,,[],,,,text,t2_a9ze6n7c,False,False,[],Spam bot,,,1614257686,{},gop7jid,False,t3_ls1cl8,False,True,t3_ls1cl8,/r/oceanography/comments/ls1cl8/ocean_waves_relaxation_1_hour_soothing_waves/gop7jid/,1614401530,4,True,False,oceanography,t5_2rez7,,0,[]
+[],,hero_protagonist,,,[],,,,text,t2_5j6sf,False,False,[],"That sounds really cool! In that case, you might also want to check out the vertical surface displacement data from CDIP. You'll have to decode the timestamp from an start time and the sampling frequency (in Hz), but I think they are sampled at around 1 or 2 Hz.
+
+Here is an example: [https://thredds.cdip.ucsd.edu/thredds/dodsC/cdip/realtime/157p1\_xy.nc](https://thredds.cdip.ucsd.edu/thredds/dodsC/cdip/realtime/157p1_xy.nc) 
+
+Good luck!",,,1614212330,{},gonafhs,False,t3_lrjdfd,False,True,t1_gomoihx,/r/oceanography/comments/lrjdfd/looking_for_high_resolution_buoy_data/gonafhs/,1614366800,2,True,False,oceanography,t5_2rez7,,0,[]
+[],,BluScr33n,,,[],,,,text,t2_xa2rs,False,False,[],"Ocean networks canada has a lot of data freely available. It might not have a lot of buoy data, but they have sea surface hight data from ADCPs, that should have the necessary resolution for you.",,,1614208410,{},gon2cs1,False,t3_lrjdfd,False,False,t3_lrjdfd,/r/oceanography/comments/lrjdfd/looking_for_high_resolution_buoy_data/gon2cs1/,1614362896,2,True,False,oceanography,t5_2rez7,,0,[]
+[],,VeskiBateman,,,[],,,,text,t2_941jjsfk,False,False,[],"Hey, thanks for the response. My application is an ocean wave parser. I intend to parse 1d wave data as a sentence and use that process to derive semantic information from waves. Thank you so much for the link. The buoy seems capable of producing data in 15 second intervals but has only done so a handful of times.  
+
+
+This is some of the most frequent data I have yet seen though, so I am hopeful that the data is out there somewhere.  
+If all else fails I intend to generate my own data though this would take me more time - something that is at a premium.",,,1614201164,{},gomoihx,False,t3_lrjdfd,False,True,t1_gomi644,/r/oceanography/comments/lrjdfd/looking_for_high_resolution_buoy_data/gomoihx/,1614355961,2,True,False,oceanography,t5_2rez7,,0,[]
+[],,tansoku,,,[],,,,text,t2_o48z8,False,False,[],"Here is a pretty extensive list of ocean data links. Some are Hawaii-centric, but there are links to a number of sources that may be helpful. 
+
+[https://www.soest.hawaii.edu/soestwp/research/data/](https://www.soest.hawaii.edu/soestwp/research/data/)",,,1614200424,{},gomneca,False,t3_lrjdfd,False,True,t3_lrjdfd,/r/oceanography/comments/lrjdfd/looking_for_high_resolution_buoy_data/gomneca/,1614355375,2,True,False,oceanography,t5_2rez7,,0,[]
+[],,hero_protagonist,,,[],,,,text,t2_5j6sf,False,False,[],"Can I ask what the application is? Are you looking to resolve some type of wave from surface displacement or some other application using sea surface height, which is measured in reference to a datum? It is really expensive in terms of power consumption and bandwidth to send raw data, so measurements are usually averaged over 15 minutes to an hour, which also helps reduce noise on the instruments. 
+
+I think your best bet might be to look at data from the DART buoys, which are specifically used for measuring tsunamis. They have a pressure sensor that is mounted to the bottom of the ocean and can measure the pressure at really heigh resolution.
+
+For example: Buoy 32411 has pressure measured at 15 second intervals. Here is a the data from a deployment from 2016-2018:
+
+[https://www.ngdc.noaa.gov/thredds/dodsC/dart\_bpr/processed/32411/32411\_20160318to20180206\_qc.nc.html](https://www.ngdc.noaa.gov/thredds/dodsC/dart_bpr/processed/32411/32411_20160318to20180206_qc.nc.html)",,,1614198423,{},gomi644,False,t3_lrjdfd,False,False,t3_lrjdfd,/r/oceanography/comments/lrjdfd/looking_for_high_resolution_buoy_data/gomi644/,1614352544,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,VeskiBateman,,,[],,,,text,t2_941jjsfk,False,False,[],Thank you both; these are the best resolutions I've yet to find at between 6 and 10 minutes. Still way off though. Looks like I might need to generate the data.,,,1614194491,{},gom8o6z,False,t3_lrjdfd,False,True,t1_gom2voi,/r/oceanography/comments/lrjdfd/looking_for_high_resolution_buoy_data/gom8o6z/,1614347126,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,tansoku,,,[],,,,text,t2_o48z8,False,False,[],Also check out ioos.noaa.gov,,,1614193575,{},gom6be1,False,t3_lrjdfd,False,True,t1_gom2voi,/r/oceanography/comments/lrjdfd/looking_for_high_resolution_buoy_data/gom6be1/,1614345827,2,True,False,oceanography,t5_2rez7,,0,[]
+[],,Lost_Piece_1911,,,[],,,,text,t2_a9ze6n7c,False,False,[],"No problem. 
+
+ndbc.noaa.gov",,,1614192461,{},gom3cu5,False,t3_lrjdfd,False,True,t1_gom2voi,/r/oceanography/comments/lrjdfd/looking_for_high_resolution_buoy_data/gom3cu5/,1614344315,2,True,False,oceanography,t5_2rez7,,0,[]
+[],,VeskiBateman,,,[],,,,text,t2_941jjsfk,False,False,[],I will check this out for sure. Many thanks.,,,1614192282,{},gom2voi,False,t3_lrjdfd,False,True,t1_gom19tj,/r/oceanography/comments/lrjdfd/looking_for_high_resolution_buoy_data/gom2voi/,1614344074,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,Lost_Piece_1911,,,[],,,,text,t2_a9ze6n7c,False,False,[],"Look at NDBC national data buoy center from NOAA. Different buoys with different amounts of data. Some have sea surface height, others have cont. Winds with 10 min averages. Without paying for a data set Id be surprised if you find second precision but Id be interested, let  us know.",,,1614191694,{},gom19tj,False,t3_lrjdfd,False,True,t3_lrjdfd,/r/oceanography/comments/lrjdfd/looking_for_high_resolution_buoy_data/gom19tj/,1614343273,3,True,False,oceanography,t5_2rez7,,0,[]
+[],,VeskiBateman,,,[],,,,text,t2_941jjsfk,False,False,[],Thank you for posting for me! :),,,1614190363,{},golxntl,False,t3_lrjdfd,False,False,t3_lrjdfd,/r/oceanography/comments/lrjdfd/looking_for_high_resolution_buoy_data/golxntl/,1614341502,2,True,False,oceanography,t5_2rez7,,0,[]
+[],,Scuzwheedl0r,,,[],,,,text,t2_3dc6k,False,False,[],"Here are a couple of other interesting topics you might like to look into:
+
+Many of the animals that live at the surface of the ocean are bright blue. Why is that and what does it do for them?
+
+Tiny animals the size of a flea travel up and down in the water column, twice a day, distances that would compare to us climbing a mountain! Why do they do that, and how?
+
+The ocean surface is not flat. In fact, there is a mound of water in the middle of the pacific that is almost a meter tall, and thousands of miles wide! Why is it there, and what does it mean for life that lives in that water?
+
+Good luck out there!",,,1614151353,{},gok5zdj,False,t3_lqqbju,False,True,t3_lqqbju,/r/oceanography/comments/lqqbju/paper_for_oceanography/gok5zdj/,1614308827,2,True,False,oceanography,t5_2rez7,,0,[]
+[],,Myctophid,,,[],,,,text,t2_2lsain4f,False,False,[],"There’s a lot of great work out there on marine turtle migration patterns, pelagic habitat, and fishery interactions, so maybe don’t give up on that topic unless they told you “no way!!”
+
+I’d echo what others are saying about reading a few papers on the topic, but I also recommend deciding which species you want to look at and which general part of the world. Leatherback turtles are extremely cool, but loggerheads also have a lot of interesting research done on their migration patterns. I wrote my MS thesis on this stuff, so I’m a little biased, but like another commenter said- lots of people get interested in turtles and whales. Charismatic megafauna are.....pretty charismatic! Here are a few good papers to read, not super technical or crazy. Enjoy!
+
+[loggerheads pacific](https://www.sciencedirect.com/science/article/abs/pii/S0022098107005734)
+
+[loggerheads Atlantic](https://www.sciencedirect.com/science/article/abs/pii/S0079661110000431)
+
+[sea turtle bycatch mitigation in longline fisheries](https://www.frontiersin.org/articles/10.3389/fmars.2017.00260/full)
+
+[leatherback migrations](https://www.int-res.com/abstracts/meps/v337/p245-254/)",,,1614143190,{},gojv4tk,False,t3_lqqbju,False,True,t1_gohw4gn,/r/oceanography/comments/lqqbju/paper_for_oceanography/gojv4tk/,1614303710,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,ItsMetheDeepState,,,[],,,,text,t2_4vz4c8nz,False,False,[],"It's ok, you're not wasting anyone's time.
+
+ The hostility you're feeling is just other people wanting to help narrow down the topic so they can better help guide your research. Oceanography is a HUGE field. It's a bit like asking: 
+
+""I need to do a topic on science!""
+
+""Ok great! What field?""
+
+""Just science..."" 
+
+You mentioned earlier you don't like doing what's already been done to death, and I can assure you research is a lot more fun when you're interested in the topic. If sea turtles interest you, expand that interest, and learn from the experts!
+
+So taking a small step back, the topic of sea turtles. Biological oceanography will tell you how oceanic processes are affected by sea turtles or how the ocean affects them. Think biology
+
+Physical oceanography can tell you how the things like ocean currents affect the sea turtles. Think physics
+
+Chemical oceanography would be a challenge for sea turtles, I have no idea how you'd link them, but think chemistry for that.
+
+Paleobiology could be interesting as you could look at the lineage and fossils of sea turtles. 
+
+There's just a ton and ton of nuance and you'll have a lot of success if you narrow down the field some more. 
+
+Don't hesitate to ask questions here, if there's one thing you should know about oceanography it's that it's a collaborative science, and none of us would be anywhere if we didn't have help.",,,1614133438,{},gojdc4d,False,t3_lqqbju,False,True,t1_goifrrs,/r/oceanography/comments/lqqbju/paper_for_oceanography/gojdc4d/,1614295479,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,AmbivalentSamaritan,,,[],,,,text,t2_mfvd4f,False,False,[],Here’s a jumping off point for the iron one : https://media.nature.com/original/magazine-assets/d41586-020-00393-x/d41586-020-00393-x.pdf,,,1614119977,{},goimj7n,False,t3_lqqbju,False,True,t1_goilivc,/r/oceanography/comments/lqqbju/paper_for_oceanography/goimj7n/,1614282073,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,CharlieCola,,,[],,,,text,t2_7lwtxdrt,False,False,[],"Those are weird and awesome, thank you",,,1614119496,{},goilivc,True,t3_lqqbju,False,True,t1_goijz55,/r/oceanography/comments/lqqbju/paper_for_oceanography/goilivc/,1614281534,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,AmbivalentSamaritan,,,[],,,,text,t2_mfvd4f,False,False,[],"Ok. Here are a couple less common ideas: 
+
+1- clouds form due to tiny particles in the air called condensation nuclei. Some plankton release dimethylsulfide, which act as cloud condensation nuclei. What ? Plankton causes clouds? 
+
+2- The open ocean is iron poor, so low in Iron that phytoplankton can’t grow. Wind can deposit iron in dust,  causing plankton to bloom, drawing down CO2.  What? Adding iron sucks Co2 out of the atmosphere? “Give me a half a tanker of iron and I'll give you the next ice age.” John Martin 
+
+3- Climate change seems to be favoring jellyfish. Turtles eat jellyfish. But is climate change otherwise favoring turtles?",,,1614118763,{},goijz55,False,t3_lqqbju,False,True,t1_goifrrs,/r/oceanography/comments/lqqbju/paper_for_oceanography/goijz55/,1614280670,2,True,False,oceanography,t5_2rez7,,0,[]
+[],,AmbivalentSamaritan,,,[],,,,text,t2_mfvd4f,False,False,[],"Ok. Here are a couple less common ideas: clouds form due to tiny particles in the air called condensation nuclei. Some plankton release dimethylsulfide molecules which acts as cloud condensation nuclei. What ? Plankton causes clouds? 
+
+The open ocean is iron poor, so low in Iron that phytoplankton can’t grow. Wind can deposit iron in dust,  causing plankton to bloom, drawing down CO2.  What? ""Give me a half a tanker of iron and I'll give you the next ice age.” John Martin 
+
+Climate change seems to be favoring jellyfish. Turtles eat jellyfish. But is climate change otherwise favoring turtles?",,,1614117015,{},goig7ow,False,t3_lqqbju,False,False,t3_lqqbju,/r/oceanography/comments/lqqbju/paper_for_oceanography/goig7ow/,1614278522,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,CharlieCola,,,[],,,,text,t2_7lwtxdrt,False,False,[],"My assignment is literally anything to do with the oceans. Topography of the red sea, how coral reefs are influences by upwelling, marine organisms, anything.  But I am feeling a bit discouraged on here as I was just told to read a lot of already published papers which is what my prof said.  
+I suppose I am not great at asking questions on here, haha, honestly don't know why I try anymore haha.  It gets me no where :)",,,1614116813,{},goifrrs,True,t3_lqqbju,False,True,t1_goiesoo,/r/oceanography/comments/lqqbju/paper_for_oceanography/goifrrs/,1614278291,-2,True,False,oceanography,t5_2rez7,,0,[]
+[],,AmbivalentSamaritan,,,[],,,,text,t2_mfvd4f,False,False,[],"Not at all. It’s just hard to figure out what your assignment is, and what kind of suggestions you want.",,,1614116374,{},goiesoo,False,t3_lqqbju,False,True,t1_goi1042,/r/oceanography/comments/lqqbju/paper_for_oceanography/goiesoo/,1614277784,2,True,False,oceanography,t5_2rez7,,0,[]
+[],,RickMortyHighIQBot,,,[],,,,text,t2_aexfrksf,False,False,[],Thanks,,,1614114498,{},goia8uy,False,t3_lqqbju,False,True,t1_goia7rw,/r/oceanography/comments/lqqbju/paper_for_oceanography/goia8uy/,1614275367,0,True,False,oceanography,t5_2rez7,,0,[]
+[],,Adventurous_Fortune8,,,[],,,,text,t2_84xhoott,False,True,[],You're welcome.,,,1614114487,{},goia7rw,False,t3_lqqbju,False,True,t1_goia6c3,/r/oceanography/comments/lqqbju/paper_for_oceanography/goia7rw/,1614275351,0,True,False,oceanography,t5_2rez7,,0,[]
+[],,CharlieCola,,,[],,,,text,t2_7lwtxdrt,False,False,[],Thanks prof,,,1614114472,{},goia6c3,True,t3_lqqbju,False,True,t1_goi83qr,/r/oceanography/comments/lqqbju/paper_for_oceanography/goia6c3/,1614275329,-5,True,False,oceanography,t5_2rez7,,0,[]
+[],,BadgerSilver,,,[],,,,text,t2_12qcc2,False,False,[],Ooh good call,,,1616977171,{},gsmw306,False,t3_mcl7xu,False,True,t1_gs51ccz,/r/oceanography/comments/mcl7xu/sea_foam_in_a_narrow_chasm_by_seal_rock_in_oregon/gsmw306/,1616977181,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,LordMuck1805,,,[],,,,text,t2_ntb0r,False,False,[],"I'm a hydrographic surveyor. I didn't do an oceanology degree, but lots of my colleagues did. Really easy to step into the industry from it.
+
+One thing to think about is future proofing whatever line of work you go into. Technology is starting to slam into the offshore industry and jobs are going to change a lot over the next 10 years. When you find an industry you're interested in, speak to as many people as possible to make sure your chosen career path won't be obsolete before the end of your career.",,,1616886242,{},gsisooa,False,t3_m8efvk,False,True,t3_m8efvk,/r/oceanography/comments/m8efvk/oceanographer_to_be/gsisooa/,1616888276,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,aClimateScientist,,,[],,,,text,t2_1jhkpi0,False,False,[],"From what I’ve gathered about the limited research on Europa / Snowball Earth oceans, the big drives of circulation (and mixing) are geothermal heat flux, which would drive convection from the bottom.",,,1615994764,{},gr8uscy,False,t3_m6vcmr,False,True,t1_gr8py5r,/r/oceanography/comments/m6vcmr/how_long_will_it_take_surface_water_and_deep/gr8uscy/,1615995060,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,ItsMetheDeepState,,,[],,,,text,t2_4vz4c8nz,False,False,[],"What an interesting question! 
+
+I'd imagine physical forcing would have been reduced by a ton, but there was still open ocean at the equator so there was 'some' wind.
+
+Then there's brine rejection where new ice could be made. Considering the amount of ice on the planet, maybe the physical mixing comes from the rapid sinking of surface waters?
+
+So much to think about, would be a lot of fun to read about. There's potential insight from the moon Europa, that's an analog for snowball Earth, only more so.",,,1615992488,{},gr8py5r,False,t3_m6vcmr,False,True,t1_gr8ct8c,/r/oceanography/comments/m6vcmr/how_long_will_it_take_surface_water_and_deep/gr8py5r/,1615992563,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,aClimateScientist,,,[],,,,text,t2_1jhkpi0,False,False,[],"It’s interesting to think about these physical processes and whether they’ve changed over time. During snowball earths, when the whole ocean was frozen over, was ocean mixing much slower?",,,1615985586,{},gr8ct8c,False,t3_m6vcmr,False,True,t1_gr8coqi,/r/oceanography/comments/m6vcmr/how_long_will_it_take_surface_water_and_deep/gr8ct8c/,1615985597,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,aClimateScientist,,,[],,,,text,t2_1jhkpi0,False,False,[],"Without physical mixing or stirring processes, the only process to do the mixing is the molecular thermal (or salt) diffusivity of seawater, which is about k = 1e-7 m^2/s. Using dimensional analysis, we can use the depth of the ocean of about H = 4000 m to estimate a timescale:
+
+T = H^2 / k = 1.6e13 seconds ≈ half a million years. So yeah, physical processes help a lot!",,,1615985509,{},gr8coqi,False,t3_m6vcmr,False,True,t3_m6vcmr,/r/oceanography/comments/m6vcmr/how_long_will_it_take_surface_water_and_deep/gr8coqi/,1615985520,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,Hetoxy,,,[],,,,text,t2_9mym3,False,False,[],Modeler?,,,1615952143,{},gr793t9,False,t3_m68fmw,False,True,t1_gr576kv,/r/oceanography/comments/m68fmw/my_10yo_son_wants_to_work_in_oceanography_what/gr793t9/,1615954758,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,pacifisht,,,[],,,,text,t2_rrfxg6l,False,False,[],Another thought since you're in a city is summer camp/education programs at local aquariums or universities! Idk how common that practice is but in Florida there's a fair number of ocean-themed education programs.,,,1615924813,{},gr5rl47,False,t3_m68fmw,False,True,t1_gr5pg0p,/r/oceanography/comments/m68fmw/my_10yo_son_wants_to_work_in_oceanography_what/gr5rl47/,1615928284,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,NycLegalHelp,,,[],,,,text,t2_11opv8,False,False,[],That's a great idea. I'm in NYC so I think there's one here.,,,1615923835,{},gr5pg0p,True,t3_m68fmw,False,True,t1_gr5l6se,/r/oceanography/comments/m68fmw/my_10yo_son_wants_to_work_in_oceanography_what/gr5pg0p/,1615927155,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,[deleted],,,,,,dark,,,,,[],[removed],,,1615923467,{},gr5on11,False,t3_m68fmw,False,True,t3_m68fmw,/r/oceanography/comments/m68fmw/my_10yo_son_wants_to_work_in_oceanography_what/gr5on11/,1615926736,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,Achinadav,,,[],,,,text,t2_4mylijzl,False,False,[],"I didn't think to mention that and I should have done. Climateprediction.net makes use of spare compute cycles to run real climate models that are then used by scientists. There's loads of others too. I saw one a couple of years ago with volunteers helping to digitise old ships' records. Not oceanography, but apparently humans are much better at identifying nebulas, star clusters, etc, in astro photography! And folding long proteins got turned into an online game for a bit. There might have been a cloud one too. I wish I could remember the names for you.",,,1615922163,{},gr5lrvw,False,t3_m68fmw,False,True,t1_gr4oif3,/r/oceanography/comments/m68fmw/my_10yo_son_wants_to_work_in_oceanography_what/gr5lrvw/,1615925229,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,pacifisht,,,[],,,,text,t2_rrfxg6l,False,False,[],"In addition to what was posted here, you could look for local braches of the American Meteorological Society or other weather/ocean groups. Oceanography has a lot of overlap with weather science and in my local AMS chapter we have young kids who attend our socials and lecture series and come with us on field trips to see weather stations and balloon launches! Honestly they're the best members as they always ask the best questions. 
+
+There may be some specific oceanography group as well locally based that does similar activities open to the public.",,,1615921896,{},gr5l6se,False,t3_m68fmw,False,True,t3_m68fmw,/r/oceanography/comments/m68fmw/my_10yo_son_wants_to_work_in_oceanography_what/gr5l6se/,1615924901,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,NycLegalHelp,,,[],,,,text,t2_11opv8,False,False,[],Haha oh no. Please don’t talk to my kid.,,,1615915776,{},gr57frq,True,t3_m68fmw,False,False,t1_gr576kv,/r/oceanography/comments/m68fmw/my_10yo_son_wants_to_work_in_oceanography_what/gr57frq/,1615917704,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,frednecker,,,[],,,,text,t2_4k6gjh2p,False,False,[],"I’m an oceanographer. Until Covid, I sat in a cubicle.",,,1615915663,{},gr576kv,False,t3_m68fmw,False,True,t3_m68fmw,/r/oceanography/comments/m68fmw/my_10yo_son_wants_to_work_in_oceanography_what/gr576kv/,1615917569,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,NycLegalHelp,,,[],,,,text,t2_11opv8,False,False,[],thank you! let me look into this,,,1615907380,{},gr4oif3,True,t3_m68fmw,False,True,t1_gr4o9zo,/r/oceanography/comments/m68fmw/my_10yo_son_wants_to_work_in_oceanography_what/gr4oif3/,1615907799,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,NycLegalHelp,,,[],,,,text,t2_11opv8,False,False,[],thank you both! these are superb ideas :) getting my hands on Blue Planet right now,,,1615907370,{},gr4ohlu,True,t3_m68fmw,False,True,t1_gr4ccev,/r/oceanography/comments/m68fmw/my_10yo_son_wants_to_work_in_oceanography_what/gr4ohlu/,1615907788,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,triizzel,,,[],,,,text,t2_2wvccjr3,False,False,[],"Look into citizen (community) science programs. They can be local, regional, or national and you can contribute real data to actual scientific research. They are a lot that focus on marine science topics",,,1615907273,{},gr4o9zo,False,t3_m68fmw,False,True,t3_m68fmw,/r/oceanography/comments/m68fmw/my_10yo_son_wants_to_work_in_oceanography_what/gr4o9zo/,1615907682,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,Achinadav,,,[],,,,text,t2_4mylijzl,False,False,[],"And Blue Planet 2, and Frozen Planet! Get him into aquariums and museums; decent oceanography exhibits are hands on and great for kids. I had a great time in the Portland, OR, science museum. There's one in Hobart, Tasmania, that is really good for oceanography. Sorry if they're too far afield, but look them up and see if you can find something more local. Most science museums will have something oceanographically relevant in there, like satellites or ships.
+
+Try googling research vessels, like the RS Sir David Attenborough (UK), RV Investigator (Australia) or Polarstern (Germany). Somewhere I saw a virtual tour that let you walk around the ship. The SDA has had loads of press in the UK and their should be lots of pictures and things. Sometimes there are public open days that let you visit (not now, shame, but hopefully they'll come back).
+
+Lego! Do kids still like Lego? My boss has a Lego model of Halley Base. I'm sure they do a research ship.
+
+A lot of universities and research institutes have some sort of outreach programme. One I helped on had a design a mooring activity and was aimed at under 10's. And we did some experiments with ice cubes. It was great fun. Dye some water blue and freeze it. Then out some in fresh water and some others in salty water. It's fascinating! There's so many fundamental fluid experiments that you can do, have a look on YouTube. I came away exhausted with a new found appreciation for teachers and teaching assistants. My table was basically Lord of the Flies, whilst there's were calm and well behaved.
+
+Does he like computers? Lots of oceanography jobs use computers and coding. I've talked to colleagues with kids about block programming and how young coding is being introduced. It's basically never too early.",,,1615901527,{},gr4ccev,False,t3_m68fmw,False,True,t1_gr48wqi,/r/oceanography/comments/m68fmw/my_10yo_son_wants_to_work_in_oceanography_what/gr4ccev/,1615901538,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,Lost_Piece_1911,,,[],,,,text,t2_a9ze6n7c,False,False,[],"Love this! Check out Blue Planet. 
+
+If he wants hands on dats, check out something like the NOAA Buoy System. Find one that interests you (a marine sanctuary, a beach near you, Hawaii) and regularly check to see what the winds are like, the water temps and more.
+
+Check out this webcam at Palmer Station. Make sure he knows oceanographers are the coolest people and get paid to go amazing places.
+
+https://www.usap.gov/videoclipsandmaps/palwebcam.cfm",,,1615899614,{},gr48wqi,False,t3_m68fmw,False,True,t3_m68fmw,/r/oceanography/comments/m68fmw/my_10yo_son_wants_to_work_in_oceanography_what/gr48wqi/,1615899625,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,strexcorp-inc,,,[],,,,text,t2_13i99u,False,False,[],Apparently OP wants the subreddit to write a presentation for them and keeps asking until they get t the answers they want,,,1615766454,{},gqyln43,False,t3_m4uh15,False,True,t1_gqw7cr0,/r/oceanography/comments/m4uh15/what_is_the_range_of_rv_in_lowinflow_estuaries/gqyln43/,1615768902,2,True,False,oceanography,t5_2rez7,,0,[]
+[],,learningeverythings,,,[],,,,text,t2_ardom6c8,False,False,[],"  
+Got it Thanks",,,1615735996,{},gqwksow,True,t3_m4uh15,False,True,t1_gqwievt,/r/oceanography/comments/m4uh15/what_is_the_range_of_rv_in_lowinflow_estuaries/gqwksow/,1615736008,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,Lost_Piece_1911,,,[],,,,text,t2_a9ze6n7c,False,False,[],"Mixing occurs mostly with turbulence. 
+
+Turbulence is motion.
+
+ Low inflow estuaries have less motion.
+
+Therefore, low inflow estuaries have low mixing and higher density gradients. 
+
+This is as basic as possible.",,,1615734653,{},gqwievt,False,t3_m4uh15,False,True,t1_gqweb3l,/r/oceanography/comments/m4uh15/what_is_the_range_of_rv_in_lowinflow_estuaries/gqwievt/,1615734664,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,xossiane,,,[],,,,text,t2_618350d3,False,False,[],Oh well a fresh hello to you too,,,1615732998,{},gqwfnhw,False,t3_m0nypl,False,True,t3_m0nypl,/r/oceanography/comments/m0nypl/newcomer_to_oceanography/gqwfnhw/,1615733009,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,learningeverythings,,,[],,,,text,t2_ardom6c8,False,False,[],"I know but I want it  for my presentation and I am not able  put it in proper words  
+If You don't mind can you briefly explain the **slow mixing of fresh and seawater in the low-inflow estuary and any (if)  phenomena that interrupt mixing?**  
+Plz",,,1615732125,{},gqweb3l,True,t3_m4uh15,False,True,t1_gqwbh5n,/r/oceanography/comments/m4uh15/what_is_the_range_of_rv_in_lowinflow_estuaries/gqweb3l/,1615732135,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,Lost_Piece_1911,,,[],,,,text,t2_a9ze6n7c,False,False,[],"Ive briefly explained 17 times why there is slow mixing in these estuaries. You ask tons of questions and do not like our answers. 
+
+I assume RV is mixing due to tidal forces. QT= RV, find your own ranges, or find a tutor.",,,1615730156,{},gqwbh5n,False,t3_m4uh15,False,True,t3_m4uh15,/r/oceanography/comments/m4uh15/what_is_the_range_of_rv_in_lowinflow_estuaries/gqwbh5n/,1615730168,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,Lapidarist,,,[],,,,text,t2_d5voj,False,False,[],Perhaps it would help if you didn't phrase your question like a commanding exam assignment.,,,1615725455,{},gqw7cr0,False,t3_m4uh15,False,True,t3_m4uh15,/r/oceanography/comments/m4uh15/what_is_the_range_of_rv_in_lowinflow_estuaries/gqw7cr0/,1615725465,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,rickyfister,,,[],,,,text,t2_yy4c6mi,False,False,[],"What is, fog",,,1615710336,{},gqvscv6,False,t3_m44s6q,False,True,t3_m44s6q,/r/oceanography/comments/m44s6q/what_is_the_effect_called_when_there_is_a_layer/gqvscv6/,1615710347,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,learningeverythings,,,[],,,,text,t2_ardom6c8,False,False,[],Can you answer my new posts?,,,1615707188,{},gqvp5ov,True,t3_m3ckl4,False,True,t1_gqpqtw7,/r/oceanography/comments/m3ckl4/what_is_a_different_between_lowinflow_estuary_and/gqvp5ov/,1615707198,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,strexcorp-inc,,,[],,,,text,t2_13i99u,False,False,[],I recall losing a few things there too. Don't remember what it all was but if you send it to me I can sort through it,,,1615678193,{},gqui1xx,False,t3_m2eqxo,False,True,t1_gqj38a0,/r/oceanography/comments/m2eqxo/two_hightech_deepsea_robots_that_will_comb_large/gqui1xx/,1615678204,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,Triskelion19,,,[],,,,text,t2_1ai0xje,False,False,[],Sensible heat transfer?,,,1615661060,{},gqtmr8k,False,t3_m44s6q,False,False,t3_m44s6q,/r/oceanography/comments/m44s6q/what_is_the_effect_called_when_there_is_a_layer/gqtmr8k/,1615661072,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,Lost_Piece_1911,,,[],,,,text,t2_a9ze6n7c,False,False,[],"Sure, youre right. Didnt know if there was a more scientific name haha",,,1615642425,{},gqspdz5,False,t3_m44s6q,False,True,t1_gqsmdq0,/r/oceanography/comments/m44s6q/what_is_the_effect_called_when_there_is_a_layer/gqspdz5/,1615642436,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,Vegetable_wow,,,[],,,,text,t2_aesnabyh,False,False,[],"Isn't it usually just called as fog (sea fog or lake fog)? 
+
+[Wikipedia](https://en.wikipedia.org/wiki/Fog#Types) lists different types of fogs by their formation, more precisely it would be then evaporation fog or steam fog.",,,1615640198,{},gqsmdq0,False,t3_m44s6q,False,True,t1_gqsl554,/r/oceanography/comments/m44s6q/what_is_the_effect_called_when_there_is_a_layer/gqsmdq0/,1615640208,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,nzrnt,,,[],,,,text,t2_89mqyul7,False,False,[],For sure. Tqvm,,,1615639199,{},gqsl5d2,True,t3_m40ag3,False,True,t1_gqsgr69,/r/oceanography/comments/m40ag3/ocean_modelling_software/gqsl5d2/,1615639210,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,Lost_Piece_1911,,,[],,,,text,t2_a9ze6n7c,False,False,[],"Water warms or cools slower than the air. When theres a tempersture gradient and the water is warmer than the air (many mornings), that mist forms. Dont know a name for it.",,,1615639194,{},gqsl554,False,t3_m44s6q,False,True,t3_m44s6q,/r/oceanography/comments/m44s6q/what_is_the_effect_called_when_there_is_a_layer/gqsl554/,1615639205,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,hormiguitas,,,[],,,,text,t2_ymjyx,False,False,[],Look at MITGCM or ROMS.,,,1615635187,{},gqsgr69,False,t3_m40ag3,False,True,t1_gqsfgxz,/r/oceanography/comments/m40ag3/ocean_modelling_software/gqsgr69/,1615635198,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,nzrnt,,,[],,,,text,t2_89mqyul7,False,False,[],"Sorry for lefting out the detail. 
+
+I would like to model the surface circulation only. So far, i only use following input:
+
+1. Surface elevation from hycom and copernicus marine.
+
+2. U &amp; V velocity component from hycon and copernicus marine.
+
+3. Wind + pressure from Era5.
+
+4. Salinity from hycom. (there is No 1 hourly salinity for copernicus)
+
+5. Temperature from hycom and copernicus marine.
+
+*For hycom data, i use 3.1 analysis 3 hourly
+*For copernicus marine data i use 1 hourly data.
+
+After the simulation, i compare again surface elevation and U &amp; V velocity component with hycom/copernicus marine and i get large rmse. 
+
+Any tips/guide u can share for surface modelling?",,,1615633859,{},gqsfgxz,True,t3_m40ag3,False,True,t1_gqs9eln,/r/oceanography/comments/m40ag3/ocean_modelling_software/gqsfgxz/,1615633870,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,Ahaterhater,,,[],,,,text,t2_s0uqm,False,False,[],"We use a lot o SWAN for wave modelling at work at this scale and wavewatch only for global scale, however for more integrated modeling SCHISM has been the choice recently for allowing integration of waves and currents on unstrucured grids and has many other ""plugins"", but you're right, we need to understand what op is interested in investigate before been able to reccomend and tools.",,,1615632816,{},gqseh5f,False,t3_m40ag3,False,True,t1_gqs9eln,/r/oceanography/comments/m40ag3/ocean_modelling_software/gqseh5f/,1615632827,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,avnibu,,,[],,,,text,t2_6ypjt,False,False,[],"You didn’t say what phenomenon you want to model. Those tools you mentioned are not CFD but free surface elevation model tools (wave) that solve bousinesq equitations in the time domain (I’m greatly simplifying and generalizing here so someone who knows more can correct me if I’m wrong). You may also need to look into solving the waves in the frequency domain. There are other tools that also look into currents under the Mike package. There are also free alternatives too (delft, telemac etc.)
+
+To my knowledge, for ocean waves modeling, tools like wavewatch are also used. 
+
+I’m on mobile so I wrote briefly.",,,1615627264,{},gqs9eln,False,t3_m40ag3,False,True,t3_m40ag3,/r/oceanography/comments/m40ag3/ocean_modelling_software/gqs9eln/,1615627274,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,Lost_Piece_1911,,,[],,,,text,t2_a9ze6n7c,False,False,[],"Its rectangles and squares: an inverse estuary is a TYPE of low-inflow estuary. These are estuaries with little freshwater input and less mixing.
+
+Youre asking lots of little questions; why are you focusing on this type of slow mixing estuary?",,,1615572480,{},gqpqtw7,False,t3_m3ckl4,False,True,t1_gqpqgqg,/r/oceanography/comments/m3ckl4/what_is_a_different_between_lowinflow_estuary_and/gqpqtw7/,1615573594,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,learningeverythings,,,[],,,,text,t2_ardom6c8,False,False,[],In a low-inflow estuary mixing fresh water and seawater is as slow as an inverse estuary?,,,1615572315,{},gqpqgqg,True,t3_m3ckl4,False,True,t1_gqorffq,/r/oceanography/comments/m3ckl4/what_is_a_different_between_lowinflow_estuary_and/gqpqgqg/,1615573411,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,Lost_Piece_1911,,,[],,,,text,t2_a9ze6n7c,False,False,[],https://oceanservice.noaa.gov/education/tutorial_estuaries/est05_circulation.html,,,1615555825,{},gqorffq,False,t3_m3ckl4,False,True,t3_m3ckl4,/r/oceanography/comments/m3ckl4/what_is_a_different_between_lowinflow_estuary_and/gqorffq/,1615555835,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,Lost_Piece_1911,,,[],,,,text,t2_a9ze6n7c,False,False,[],Their teacher,,,1615555597,{},gqor1gu,False,t3_m3dsrb,False,True,t1_gqoobvi,/r/oceanography/comments/m3dsrb/what_are_some_similarities_between_oil_and/gqor1gu/,1615555608,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,Shovenor_General,,,[],,,,text,t2_7spfstsz,False,False,[],Who wants to know?,,,1615553903,{},gqoobvi,False,t3_m3dsrb,False,True,t3_m3dsrb,/r/oceanography/comments/m3dsrb/what_are_some_similarities_between_oil_and/gqoobvi/,1615553914,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,autotldr,,,[],,,,text,t2_6sklr,False,False,[],"This is the best tl;dr I could make, [original](https://www.latimes.com/environment/story/2021-03-10/ddt-seafloor-mapping-catalina-noaa-scripps) reduced by 93%. (I'm a bot)
+*****
+&gt; When Californians learned in October that the waters off Santa Catalina Island once served as a dumping ground for thousands of barrels of DDT waste, the ocean science community jumped into action.
+
+&gt; &amp;quot;The rediscovery of the massive DDT dumping ground off Southern California is certainly a disaster in need of context - how has the DDT, leaked from thousands of sunken barrels, made its way to the parts of the food chain that Californians rely on?&amp;quot; said Brice Semmens, program director and an associate professor of marine biology at Scripps.
+
+&gt; As many as half a million barrels of DDT waste could be on the seafloor, according to old records and shipping logs.
+
+
+*****
+[**Extended Summary**](http://np.reddit.com/r/autotldr/comments/m2v16o/deepsea_roombas_will_comb_ocean_floor_for_ddt/) | [FAQ](http://np.reddit.com/r/autotldr/comments/31b9fm/faq_autotldr_bot/ ""Version 2.02, ~563395 tl;drs so far."") | [Feedback](http://np.reddit.com/message/compose?to=%23autotldr ""PM's and comments are monitored, constructive feedback is welcome."") | *Top* *keywords*: **DDT**^#1 **ocean**^#2 **scientist**^#3 **barrels**^#4 **need**^#5",,,1615482234,{},gqlaqpc,False,t3_m2eqxo,False,True,t3_m2eqxo,/r/oceanography/comments/m2eqxo/two_hightech_deepsea_robots_that_will_comb_large/gqlaqpc/,1615483588,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,Lost_Piece_1911,,,[],,,,text,t2_a9ze6n7c,False,False,[],"It is not a problem, I like answering your questions, but you are lying when you are saying youre on a friends account.
+
+Im only asking about the questions because they are asking for concrete answers about worldwide things. I was curious if you were working in one specific area.",,,1615436711,{},gqj782z,False,t3_m239f6,False,True,t1_gqj6260,/r/oceanography/comments/m239f6/is_there_no_mix_of_freshwater_and_seawater_in_the/gqj782z/,1615441027,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,learningeverythings,,,[],,,,text,t2_ardom6c8,False,False,[],"AS I mention about my project Estuary part is my job and I behind my schedule,  
+Going through books will take a lot of time, therefore this method  
+Sorry, if you get any kind of trouble ... But you help a lot Thanks for that",,,1615436001,{},gqj6260,True,t3_m239f6,False,True,t1_gqj1f40,/r/oceanography/comments/m239f6/is_there_no_mix_of_freshwater_and_seawater_in_the/gqj6260/,1615440525,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,doughnuts58008,,,[],,,,text,t2_8g525r8a,False,False,[],"Wonder what other kinda goodies they might find along the way? Pretty sure I lost a few treasure chests out there, please return them",,,1615434181,{},gqj38a0,False,t3_m2eqxo,False,True,t3_m2eqxo,/r/oceanography/comments/m2eqxo/two_hightech_deepsea_robots_that_will_comb_large/gqj38a0/,1615439310,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,Lost_Piece_1911,,,[],,,,text,t2_a9ze6n7c,False,False,[],"Youre lying. You made two accounts.
+
+They will always mix very slowly. I dont know of any that never mix. What is this line of questioning trying to accomplish?",,,1615433189,{},gqj1f40,False,t3_m239f6,False,True,t1_gqiw1up,/r/oceanography/comments/m239f6/is_there_no_mix_of_freshwater_and_seawater_in_the/gqj1f40/,1615438537,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,BlankVerse,,,[],,,,text,t2_97a3,False,False,[],"Excerpt: 
+
+&gt; When Californians learned in October that the waters off Santa Catalina Island once served as a dumping ground for thousands of barrels of DDT waste, the ocean science community jumped into action.
+
+&gt; A crew was swiftly assembled, shipping lanes cleared, the gears set in motion for a deep-sea expedition aboard the Sally Ride, one of the most technologically advanced research vessels in the country.
+
+&gt; By Wednesday, the ship was ready to leave San Diego and head for the San Pedro Basin, where 31 scientists and crew members will spend the next two weeks surveying almost 50,000 acres of the seafloor — a much-needed first step in solving this toxic mystery that the ocean had buried for decades.
+
+&gt; “We want to provide a common base map of what’s on the seabed at a high enough resolution,” said Eric Terrill of UC San Diego’s Scripps Institution of Oceanography, who is leading an effort made possible by the many scientists and federal officials who helped fast-track this expedition. “There were a lot of heroics pulled by quite a few people ... to make this happen.”
+
+&gt; Public calls for action have intensified since The Times reported that the nation’s largest manufacturer of DDT once dumped its waste into the deep ocean. As many as half a million barrels could still be underwater today, according to old records and a recent UC Santa Barbara study that provided the first real glimpse of this pollution bubbling 3,000 feet under the sea.
+
+&gt; “These barrels are full of toxic chemicals that could be causing illness among ocean wildlife and even humans. Ignoring it or claiming it’s just too difficult to deal with is not an option,” said Sen. Dianne Feinstein (D-Calif.), who has pushed numerous agencies to make this issue a priority. “The Biden administration has indicated it’s interested in taking action, and I intend to stay on them.”",,,1615427232,{},gqiqabf,True,t3_m2eqxo,False,True,t3_m2eqxo,/r/oceanography/comments/m2eqxo/two_hightech_deepsea_robots_that_will_comb_large/gqiqabf/,1615433057,1,True,False,oceanography,t5_2rez7,,0,[]
+[],,isodoria,,,[],,,,text,t2_6cew6sys,False,False,[],"Do you understand the salinity gradient part? 
+
+The sentence you underlined means that before there is such a large salinity differential between the two sides of the estuary (landward and seaward), neither the fresh water from the estuary nor the salt water from the sea can cross this boundary. Does that make sense?",,,1615409694,{},gqhqjdm,False,t3_m1zq80,False,True,t3_m1zq80,/r/oceanography/comments/m1zq80/can_anyone_explain_the_red_line/gqhqjdm/,1615415871,2,True,False,oceanography,t5_2rez7,,0,[]
