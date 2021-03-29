@@ -7,7 +7,9 @@ This project showcases the use of Natural Language Processing (NLP) with classif
 ### Notebooks in this repo:
 
 [data_collection.ipynb](https://github.com/dgumustel/nlp_predictive_models/blob/master/data_collection.ipynb) - This notebook uses [Pushshift's](https://github.com/pushshift/api) API to retrieve posts and comments from subreddits. 
+
 [dnd_zelda_model.ipynb]() - This notebook holds a classification model that can identify whether a post came from the r/DMAcademy subreddit or the r/truezelda subreddit. 
+
 [poli_discussion_model.ipynb](https://github.com/dgumustel/nlp_predictive_models/blob/master/poli_discussion_model.ipynb) - This notebook holds a classification model that can predict whether a post on the r/politicaldiscussion subreddit came from the year 2012 or 2020.
 
 
