@@ -88,6 +88,7 @@ I expect to get higher accuracies when I add in more data!
 
 ---
 
-### Next Steps
+### TODO
+* add project intro and objectives to 01 notebook
 
 
