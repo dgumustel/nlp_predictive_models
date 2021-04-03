@@ -2,6 +2,8 @@
 
 This project showcases the use of Natural Language Processing (NLP) with classification models in identifying from "which subreddit a given post came from". 
 
+This project is currently under development! - 04/03/21
+
 ---
 
 ### Notebooks in this repo:
