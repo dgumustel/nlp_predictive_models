@@ -6,11 +6,15 @@ This project showcases the use of Natural Language Processing (NLP) with classif
 
 ### Notebooks in this repo:
 
-[data_collection.ipynb](https://github.com/dgumustel/nlp_predictive_models/blob/master/data_collection.ipynb) - This notebook uses [Pushshift's](https://github.com/pushshift/api) API to retrieve posts and comments from subreddits. 
+[01_data_collection.ipynb](https://git.generalassemb.ly/dgumustel/project_3/blob/master/notebooks/01_data_collection.ipynb) - This notebook uses [Pushshift's](https://github.com/pushshift/api) API to retrieve posts and comments from subreddits. 
 
-[dnd_zelda_model.ipynb]() - This notebook holds a classification model that can identify whether a post came from the r/DMAcademy subreddit or the r/truezelda subreddit. 
+[02_text_cleaning.ipynb](https://git.generalassemb.ly/dgumustel/project_3/blob/master/notebooks/02_text_cleaning.ipynb) - 
 
-[poli_discussion_model.ipynb](https://github.com/dgumustel/nlp_predictive_models/blob/master/poli_discussion_model.ipynb) - This notebook holds a classification model that can predict whether a post on the r/politicaldiscussion subreddit came from the year 2012 or 2020.
+[03_EDA.ipynb](https://git.generalassemb.ly/dgumustel/project_3/blob/master/notebooks/03_EDA.ipynb) - 
+
+[04_dnd_zelda_model.ipynb](https://git.generalassemb.ly/dgumustel/project_3/blob/master/notebooks/04_dnd_zelda_model.ipynb) -
+
+[05_political_disc_model.ipynb](https://git.generalassemb.ly/dgumustel/project_3/blob/master/notebooks/05_political_disc_model.ipynb) -
 
 ---
 
@@ -43,6 +47,12 @@ Then I used CountVectorizer to transform X_train and X_test to sparse matrices. 
 
 ---
 
+### Text procesing and analysis
+
+
+
+---
+
 ### Model Selection and Tuning
 
 Started with GridSearchCV and Bernoulli Naive Bayes model because that was the first we did in Grant's lesson 5.04 on NLP (2). Then did GridSearchCV and TFIDF multinomial Naive Bayes model. Learning to use pipelines, yay! 
@@ -57,7 +67,7 @@ Started with GridSearchCV and Bernoulli Naive Bayes model because that was the f
 
 ### Model Evaluation
 
-Bernoulli Naive Bayes model had specificity of 0.5454545454545454. The confusion matrix below has true label on the y-axis and predicted label on the x-axis.
+Confusion matrix from the Bernoulli Naive Bayes model had specificity of 0.5454545454545454. The confusion matrix below has true label on the y-axis and predicted label on the x-axis.
 
 | 0 | 18 | 15 |
 |---|----|----|
@@ -68,7 +78,7 @@ This model was great at predicting true positives (optimized for sensitivity I t
 
 
 
-TFIDF multinomial Naive Bayes model had specificity of 0.9393939393939394. The confusion matrix below has true label on the y-axis and predicted label on the x-axis.
+TFIDF Bernoulli Naive Bayes model had specificity of 0.9393939393939394. The confusion matrix below has true label on the y-axis and predicted label on the x-axis.
 
 | 0 | 31 | 2  |
 |---|----|----|
