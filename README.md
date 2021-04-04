@@ -19,15 +19,15 @@ This project is currently under development! - 04/03/21
 
 I separated each piece of my process for this project into a different notebook:
 
-[01_data_collection.ipynb](https://git.generalassemb.ly/dgumustel/project_3/blob/master/notebooks/01_data_collection.ipynb) - This notebook uses [Pushshift's](https://github.com/pushshift/api) API to retrieve posts and comments from subreddits. 
+[01_data_collection.ipynb](https://github.com/dgumustel/nlp_predictive_models/blob/master/notebooks/01_data_collection.ipynb) - This notebook uses [Pushshift's](https://github.com/pushshift/api) API to retrieve posts and comments from subreddits. 
 
-[02_text_cleaning.ipynb](https://git.generalassemb.ly/dgumustel/project_3/blob/master/notebooks/02_text_cleaning.ipynb) - Drop any posts that are removed, deleted, or null, and use regular expressions to filter out unwanted strings and characters.
+[02_text_cleaning.ipynb](https://github.com/dgumustel/nlp_predictive_models/blob/master/notebooks/02_text_cleaning.ipynb) - Drop any posts that are removed, deleted, or null, and use regular expressions to filter out unwanted strings and characters.
 
-[03_EDA.ipynb](https://git.generalassemb.ly/dgumustel/project_3/blob/master/notebooks/03_EDA.ipynb) - Identify custom stop words, plot distributions of number of words and characters per post for each subreddit, and perform sentiment analysis.
+[03_EDA.ipynb](https://github.com/dgumustel/nlp_predictive_models/blob/master/notebooks/03_EDA.ipynb) - Identify custom stop words, plot distributions of number of words and characters per post for each subreddit, and perform sentiment analysis.
 
-[04_dnd_zelda_model.ipynb](https://git.generalassemb.ly/dgumustel/project_3/blob/master/notebooks/04_dnd_zelda_model.ipynb) - Train a Bernoulli Naive Bayes and an SVM classifier to predict whether a post came from r/DMAcademy or r/truezelda.
+[04_dnd_zelda_model.ipynb](https://github.com/dgumustel/nlp_predictive_models/blob/master/notebooks/04_dnd_zelda_model.ipynb) - Train a Bernoulli Naive Bayes and an SVM classifier to predict whether a post came from r/DMAcademy or r/truezelda.
 
-[05_political_disc_model.ipynb](https://git.generalassemb.ly/dgumustel/project_3/blob/master/notebooks/05_political_disc_model.ipynb) - Train a Bernoulli Naive Bayes and an SVM classifier to predict which year a post came from on r/PolitlcalDiscussion.
+[05_political_disc_model.ipynb](https://github.com/dgumustel/nlp_predictive_models/blob/master/notebooks/05_political_disc_model.ipynb) - Train a Bernoulli Naive Bayes and an SVM classifier to predict which year a post came from on r/PolitlcalDiscussion.
 
 ---
 
