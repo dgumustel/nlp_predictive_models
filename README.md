@@ -100,5 +100,3 @@ The confusion matrix below has true label on the y-axis and predicted label on t
 ### Conclusions
 
 ---
-
-### Avenues for Future Work
