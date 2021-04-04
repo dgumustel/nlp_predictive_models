@@ -76,7 +76,7 @@ The confusion matrix below has true label on the y-axis and predicted label on t
 Bernoulli Naive Bayes with TF-IDF Vectorizer. 
 The confusion matrix below has true label on the y-axis and predicted label on the x-axis.
 
-|Confusion matrix|||
+
 |---|---|---|
 | r/DMAcademy | 1220        | 2           |
 | r/truezelda | 7           | 1021        |
@@ -86,8 +86,8 @@ The confusion matrix below has true label on the y-axis and predicted label on t
 SVM classifier with TF-IDF Vectorizer
 The confusion matrix below has true label on the y-axis and predicted label on the x-axis.
 
-|Confusion matrix|||
-|---|---|---|
+
+
 | r/DMAcademy | 1218        | 4           |
 | r/truezelda | 11          | 1017        |
 |             | r/DMAcademy | r/truezelda |
