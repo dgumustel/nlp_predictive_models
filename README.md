@@ -41,7 +41,7 @@ I used [Pushshift's](https://github.com/pushshift/api) API to full 5,000 posts f
 
 My data contained many removed, deleted, and null posts. I dropped all of these, then used regular expressions to filter out hyperlinks, digits, punctuation, and other special strings (like '&amp;). This cleaned up my data considerably. Then I identified custom stop words to use in the modeling process, plotted the distributions of number of words and characters per post for each subreddit, and performed sentiment analysis. 
 
-Findings: r/DMAcademy had consistently wordier posts than r/truezelda, and r/DMAcademy was found to have a higher fraction of words classified as positive and negative than r/truezelda using sklearn's NLTK and `SentimentIntensityAnalyzer()`. Comment length and word count in r/PoliticalDiscussion was similar in 2012 and 2020. Positivty scores were the same for 2012 and 2020, and 2020 had a lower negativity score than 2012. 
+Findings: r/DMAcademy had consistently wordier posts than r/truezelda, and r/DMAcademy was found to have a higher fraction of words classified as positive and negative than r/truezelda using sklearn's NLTK and `SentimentIntensityAnalyzer()`. Comment length and word count in r/PoliticalDiscussion was similar in 2012 and 2020. Positivty scores were about the same for 2012 and 2020, and 2020 had a lower negativity score than 2012. 
 
 | Score type | r/DMAcademy | r/truezelda | r/PoliticalDiscussion 2012 | r/PoliticalDiscussion 2020 |
 |------------|-------------|-------------|----------------------------|----------------------------|
@@ -60,27 +60,38 @@ Findings: r/DMAcademy had consistently wordier posts than r/truezelda, and r/DMA
 
 ### Model Evaluation
 
-Confusion matrix from the Bernoulli Naive Bayes model had specificity of 0.5454545454545454. The confusion matrix below has true label on the y-axis and predicted label on the x-axis.
+#### Predicting which subreddit a post came from
 
-| 0 | 18 | 15 |
-|---|----|----|
-| 1 | 1  | 32 |
-|   | 0  | 1  |
+Bernoulli Naive Bayes with Count Vectorizer
+The confusion matrix below has true label on the y-axis and predicted label on the x-axis.
 
-This model was great at predicting true positives (optimized for sensitivity I think?), but did not minimize false positives by far. In our context, this means the model was great at identifying oceanography posts as oceanography posts, but also misclassified many boardgame posts as oceanography posts. Based on this kind of model, why is this?
+| r/DMAcademy | 1222        | 0           |
+|-------------|-------------|-------------|
+| r/truezelda | 15          | 1013        |
+|             | r/DMAcademy | r/truezelda |
 
 
 
-TFIDF Bernoulli Naive Bayes model had specificity of 0.9393939393939394. The confusion matrix below has true label on the y-axis and predicted label on the x-axis.
+Bernoulli Naive Bayes with TF-IDF Vectorizer. 
+The confusion matrix below has true label on the y-axis and predicted label on the x-axis.
 
-| 0 | 31 | 2  |
-|---|----|----|
-| 1 | 17 | 16 |
-|   | 0  | 1  |
+| r/DMAcademy | 1220        | 2           |
+|-------------|-------------|-------------|
+| r/truezelda | 7           | 1021        |
+|             | r/DMAcademy | r/truezelda |
 
-This model was optimized for true negatives instead (optimized for specificity for sure), and as a result had a larger number of false negatives than the BernoulliNB model. Based on this kind of model, why is this?
 
-I expect to get higher accuracies when I add in more data! 
+SVM classifier with TF-IDF Vectorizer
+The confusion matrix below has true label on the y-axis and predicted label on the x-axis.
+
+| r/DMAcademy | 1218        | 4           |
+|-------------|-------------|-------------|
+| r/truezelda | 11          | 1017        |
+|             | r/DMAcademy | r/truezelda |
+
+#### Predicting which year a post on r/PoliticalDiscussion came from
+
+
 
 
 ### Conclusions
