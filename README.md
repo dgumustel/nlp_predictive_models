@@ -39,7 +39,7 @@ I used [Pushshift's](https://github.com/pushshift/api) API to full 5,000 posts f
 
 ### Data Cleaning and EDA
 
-My data contained many removed, deleted, and null posts. I dropped all of these, then used regular expressions to filter out hyperlinks, digits, punctuation, and other special strings (like '&amp;). This cleaned up my data considerably. Then I identified custom stop words to use in the modeling process, plotted the distributions of number of words and characters per post for each subreddit, and performed sentiment analysis. 
+My data contained many removed, deleted, and null posts. I dropped all of these, then used regular expressions to filter out hyperlinks, digits, punctuation, and other special strings. This cleaned up my data considerably. Then I identified custom stop words to use in the modeling process, plotted the distributions of number of words and characters per post for each subreddit, and performed sentiment analysis. 
 
 Findings: r/DMAcademy had consistently wordier posts than r/truezelda, and r/DMAcademy was found to have a higher fraction of words classified as positive and negative than r/truezelda using sklearn's NLTK and `SentimentIntensityAnalyzer()`. Comment length and word count in r/PoliticalDiscussion was similar in 2012 and 2020. Positivty scores were about the same for 2012 and 2020, and 2020 had a lower negativity score than 2012. 
 
