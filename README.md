@@ -2,103 +2,106 @@
 
 This project showcases the use of Natural Language Processing (NLP) with classification models in identifying from "which subreddit a given post came from". 
 
+This project is currently under development! - 04/03/21
+
+---
+
+### Project Goals
+
+1. Use Pushshift's API to collect posts and comments from subreddits
+2. Train and compare two models that can predict which subreddit a post came from - uses 2+ subreddits
+3. Train and compare two models that can predict which year a post came from - uses 2+ time periods of one subreddit
+
+
 ---
 
 ### Notebooks in this repo:
 
+I separated each piece of my process for this project into a different notebook:
+
 [01_data_collection.ipynb](https://git.generalassemb.ly/dgumustel/project_3/blob/master/notebooks/01_data_collection.ipynb) - This notebook uses [Pushshift's](https://github.com/pushshift/api) API to retrieve posts and comments from subreddits. 
 
-[02_text_cleaning.ipynb](https://git.generalassemb.ly/dgumustel/project_3/blob/master/notebooks/02_text_cleaning.ipynb) - 
+[02_text_cleaning.ipynb](https://git.generalassemb.ly/dgumustel/project_3/blob/master/notebooks/02_text_cleaning.ipynb) - Drop any posts that are removed, deleted, or null, and use regular expressions to filter out unwanted strings and characters.
 
-[03_EDA.ipynb](https://git.generalassemb.ly/dgumustel/project_3/blob/master/notebooks/03_EDA.ipynb) - 
+[03_EDA.ipynb](https://git.generalassemb.ly/dgumustel/project_3/blob/master/notebooks/03_EDA.ipynb) - Identify custom stop words, plot distributions of number of words and characters per post for each subreddit, and perform sentiment analysis.
 
-[04_dnd_zelda_model.ipynb](https://git.generalassemb.ly/dgumustel/project_3/blob/master/notebooks/04_dnd_zelda_model.ipynb) -
+[04_dnd_zelda_model.ipynb](https://git.generalassemb.ly/dgumustel/project_3/blob/master/notebooks/04_dnd_zelda_model.ipynb) - Train a Bernoulli Naive Bayes and an SVM classifier to predict whether a post came from r/DMAcademy or r/truezelda.
 
-[05_political_disc_model.ipynb](https://git.generalassemb.ly/dgumustel/project_3/blob/master/notebooks/05_political_disc_model.ipynb) -
-
----
-
-### Overview
-
-This project showcases the use of Natural Language Processing (NLP) classification models in identifying from "which subreddit a given post came from". 
+[05_political_disc_model.ipynb](https://git.generalassemb.ly/dgumustel/project_3/blob/master/notebooks/05_political_disc_model.ipynb) - Train a Bernoulli Naive Bayes and an SVM classifier to predict which year a post came from on r/PolitlcalDiscussion.
 
 ---
 
-### Problem Statement
+### Data Collection
 
-The goal is to use NLP to train at least two models to identify 
-
----
-
-### Data
-
-Pulled 200 files total via [Pushshift's](https://github.com/pushshift/api) API. 100 came from the boardgames reddit and 100 came from the oceanography reddit. I used the created_utc times to pull in two batches of 50 from separate time periods. Then I selected just the 'subreddit' and 'selftext' columns. I used df.replace to remove special characters like \\t \\n \\r, might need to do more of this though! Then I binarized the 'subreddit' column by mapping oceanography to 1 and boardgames to 0. 
-
-### TODO
-* get MORE DATA - source for pulling data on time delay: https://gist.github.com/tecoholic/1242694
-* try pulling in comments, too! try using titles alongside selftext! 
+I used [Pushshift's](https://github.com/pushshift/api) API to full 5,000 posts from r/DMAcademy, 5,000 posts from r/truezelda, 5,000 comments from r/PoliticalDiscussion in 2012, and 5,000 comments from r/PoliticalDiscussion in 2020. 
 
 ---
 
-### Data Preprocessing
+### Data Cleaning and EDA
 
-X here was the 'selftext' of the subreddit submissions, and y was the binarized 'subreddit'. I stratified on y on the train_test_split to ensure the balance between oceanography and boardgames posts was equal in the train and test data.  
-Then I used CountVectorizer to transform X_train and X_test to sparse matrices. Made a couple bar plots to show that the top 10 words were stop words, then reset X_train and X_test to dataframes for pipeline and gridsearchCV fitting. 
+My data contained many removed, deleted, and null posts. I dropped all of these, then used regular expressions to filter out hyperlinks, digits, punctuation, and other special strings. This cleaned up my data considerably. Then I identified custom stop words to use in the modeling process, plotted the distributions of number of words and characters per post for each subreddit, and performed sentiment analysis. 
+
+Findings: r/DMAcademy had consistently wordier posts than r/truezelda, and r/DMAcademy was found to have a higher fraction of words classified as positive and negative than r/truezelda using sklearn's NLTK and `SentimentIntensityAnalyzer()`. Comment length and word count in r/PoliticalDiscussion was similar in 2012 and 2020. Positivty scores were about the same for 2012 and 2020, and 2020 had a lower negativity score than 2012. 
+
+| Score type | r/DMAcademy | r/truezelda | r/PoliticalDiscussion 2012 | r/PoliticalDiscussion 2020 |
+|------------|-------------|-------------|----------------------------|----------------------------|
+| Negative   | 0.079423    | 0.058906    | 0.099317                   | 0.085801                   |
+| Neutral    | 0.789251    | 0.809166    | 0.775668                   | 0.791869                   |
+| Positive   | 0.130916    | 0.119762    | 0.121415                   | 0.119317                   |
 
 ---
 
-### Text procesing and analysis
+### Preprocessing and Modeling
 
 
 
 ---
 
-### Model Selection and Tuning
-
-Started with GridSearchCV and Bernoulli Naive Bayes model because that was the first we did in Grant's lesson 5.04 on NLP (2). Then did GridSearchCV and TFIDF multinomial Naive Bayes model. Learning to use pipelines, yay! 
-
----
-
-### TODO 
-* reexamine the pipe_params in both models
-* try knn model! 
-
----
 
 ### Model Evaluation
 
-Confusion matrix from the Bernoulli Naive Bayes model had specificity of 0.5454545454545454. The confusion matrix below has true label on the y-axis and predicted label on the x-axis.
+#### Predicting which subreddit a post came from
 
-| 0 | 18 | 15 |
-|---|----|----|
-| 1 | 1  | 32 |
-|   | 0  | 1  |
-
-This model was great at predicting true positives (optimized for sensitivity I think?), but did not minimize false positives by far. In our context, this means the model was great at identifying oceanography posts as oceanography posts, but also misclassified many boardgame posts as oceanography posts. Based on this kind of model, why is this?
+Bernoulli Naive Bayes with Count Vectorizer
+The confusion matrix below has true label on the y-axis and predicted label on the x-axis.
 
 
 
-TFIDF Bernoulli Naive Bayes model had specificity of 0.9393939393939394. The confusion matrix below has true label on the y-axis and predicted label on the x-axis.
-
-| 0 | 31 | 2  |
-|---|----|----|
-| 1 | 17 | 16 |
-|   | 0  | 1  |
-
-This model was optimized for true negatives instead (optimized for specificity for sure), and as a result had a larger number of false negatives than the BernoulliNB model. Based on this kind of model, why is this?
-
-I expect to get higher accuracies when I add in more data! 
+| r/DMAcademy | 1222        | 0           |
+|-------------|-------------|-------------|
+| r/truezelda | 15          | 1013        |
+|             | r/DMAcademy | r/truezelda |
 
 
 
-### TODO
-* calculate more classification metrics - sensitivity, what else was there??? don't even remember
+Bernoulli Naive Bayes with TF-IDF Vectorizer. 
+The confusion matrix below has true label on the y-axis and predicted label on the x-axis.
+
+
+
+| r/DMAcademy | 1220        | 2           |
+|-------------|-------------|-------------|
+| r/truezelda | 7           | 1021        |
+|             | r/DMAcademy | r/truezelda |
+
+
+SVM classifier with TF-IDF Vectorizer
+The confusion matrix below has true label on the y-axis and predicted label on the x-axis.
+
+
+
+| r/DMAcademy | 1218        | 4           |
+|-------------|-------------|-------------|
+| r/truezelda | 11          | 1017        |
+|             | r/DMAcademy | r/truezelda |
+
+#### Predicting which year a post on r/PoliticalDiscussion came from
+
+
+
 
 ### Conclusions
 
 ---
 
-### TODO
-* add project intro and objectives to 01 notebook
-
-
+### Avenues for Future Work
