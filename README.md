@@ -66,11 +66,10 @@ Bernoulli Naive Bayes with Count Vectorizer
 The confusion matrix below has true label on the y-axis and predicted label on the x-axis.
 
 
-
-| r/DMAcademy | 1222        | 0           |
-|-------------|-------------|-------------|
-| r/truezelda | 15          | 1013        |
 |             | r/DMAcademy | r/truezelda |
+|-------------|-------------|-------------|
+| r/DMAcademy | 1222        | 0           |
+| r/truezelda | 15          | 1013        |
 
 
 
@@ -78,22 +77,20 @@ Bernoulli Naive Bayes with TF-IDF Vectorizer.
 The confusion matrix below has true label on the y-axis and predicted label on the x-axis.
 
 
-
-| r/DMAcademy | 1220        | 2           |
-|-------------|-------------|-------------|
-| r/truezelda | 7           | 1021        |
 |             | r/DMAcademy | r/truezelda |
+|-------------|-------------|-------------|
+| r/DMAcademy | 1220        | 2           |
+| r/truezelda | 7           | 1021        |
 
 
 SVM classifier with TF-IDF Vectorizer
 The confusion matrix below has true label on the y-axis and predicted label on the x-axis.
 
 
-
-| r/DMAcademy | 1218        | 4           |
-|-------------|-------------|-------------|
-| r/truezelda | 11          | 1017        |
 |             | r/DMAcademy | r/truezelda |
+|-------------|-------------|-------------|
+| r/DMAcademy | 1218        | 4           |
+| r/truezelda | 11          | 1017        |
 
 #### Predicting which year a post on r/PoliticalDiscussion came from
 
