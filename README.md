@@ -65,9 +65,10 @@ Findings: r/DMAcademy had consistently wordier posts than r/truezelda, and r/DMA
 Bernoulli Naive Bayes with Count Vectorizer
 The confusion matrix below has true label on the y-axis and predicted label on the x-axis.
 
-|Confusion matrix|||
-|---|---|---|
+
+
 | r/DMAcademy | 1222        | 0           |
+|-------------|-------------|-------------|
 | r/truezelda | 15          | 1013        |
 |             | r/DMAcademy | r/truezelda |
 
@@ -77,8 +78,9 @@ Bernoulli Naive Bayes with TF-IDF Vectorizer.
 The confusion matrix below has true label on the y-axis and predicted label on the x-axis.
 
 
-|---|---|---|
+
 | r/DMAcademy | 1220        | 2           |
+|-------------|-------------|-------------|
 | r/truezelda | 7           | 1021        |
 |             | r/DMAcademy | r/truezelda |
 
@@ -89,6 +91,7 @@ The confusion matrix below has true label on the y-axis and predicted label on t
 
 
 | r/DMAcademy | 1218        | 4           |
+|-------------|-------------|-------------|
 | r/truezelda | 11          | 1017        |
 |             | r/DMAcademy | r/truezelda |
 
