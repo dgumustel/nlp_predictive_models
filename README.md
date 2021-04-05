@@ -1,6 +1,6 @@
 # Natural Language Processing and Predictive Classification Models
 
-This project showcases the use of Natural Language Processing (NLP) with classification models in identifying from "which subreddit a given post came from". 
+This project showcases the use of Natural Language Processing (NLP) with classification models from the [scikit-learn library](https://scikit-learn.org/stable/index.html) in identifying which subreddit a given post came from. 
 
 This project is currently under development! - 04/03/21
 
@@ -11,7 +11,6 @@ This project is currently under development! - 04/03/21
 1. Use Pushshift's API to collect posts and comments from subreddits
 2. Train and compare two models that can predict which subreddit a post came from - uses 2+ subreddits
 3. Train and compare two models that can predict which year a post came from - uses 2+ time periods of one subreddit
-
 
 ---
 
@@ -53,28 +52,27 @@ Findings: r/DMAcademy had consistently wordier posts than r/truezelda, and r/DMA
 
 ### Preprocessing and Modeling
 
-
+I chose to use sklearn's [Bernoulli Naive Bayes](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.BernoulliNB.html) and [SVM classifier](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html) as the two models for this project. For preprocessing, I ran the BernoulliNB model twice, first with [CountVectorizer()](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html), and then with [TfidfVectorizer()](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html). I wanted to compare the impact that each vectorizer had on predictions, but each of them performed exceptionally with a very small difference in the number of misclassifications. The TF-IDF vectorizer produced the smallest number of misclassifications, so I selected that vectorizer to use with my SVM classifier. These models performed very well (>98% accuracy on unseen data) with minimal hyperparameter tuning. 
 
 ---
-
 
 ### Model Evaluation
 
 #### Predicting which subreddit a post came from
 
-Bernoulli Naive Bayes with Count Vectorizer
-The confusion matrix below has true label on the y-axis and predicted label on the x-axis.
+The confusion matrices below have true label on the y-axis and predicted label on the x-axis.
 
+
+Below are the predictions from the `BernoulliNB` classifier with `CountVectorizer()`
 
 |             | r/DMAcademy | r/truezelda |
 |-------------|-------------|-------------|
 | r/DMAcademy | 1222        | 0           |
 | r/truezelda | 15          | 1013        |
 
+This model had an accuracy of 99.33%! The high precision and recall scores also reflect how few misclassifications this model made.
 
-
-Bernoulli Naive Bayes with TF-IDF Vectorizer. 
-The confusion matrix below has true label on the y-axis and predicted label on the x-axis.
+Below are the prediction from the `BernoulliNB` with `TfidfVectorizer()`. 
 
 
 |             | r/DMAcademy | r/truezelda |
@@ -82,9 +80,9 @@ The confusion matrix below has true label on the y-axis and predicted label on t
 | r/DMAcademy | 1220        | 2           |
 | r/truezelda | 7           | 1021        |
 
+With the TF-IDF vectorizer, the BernoulliNB model made even fewer errors. 
 
-SVM classifier with TF-IDF Vectorizer
-The confusion matrix below has true label on the y-axis and predicted label on the x-axis.
+Below are the predictions from the SVM classifier with `TfidfVectorizer`. 
 
 
 |             | r/DMAcademy | r/truezelda |
@@ -92,11 +90,17 @@ The confusion matrix below has true label on the y-axis and predicted label on t
 | r/DMAcademy | 1218        | 4           |
 | r/truezelda | 11          | 1017        |
 
+This model performs almost as well as the BernoulliNB model with the TF-IDF vectorizer. 
+
+
+
 #### Predicting which year a post on r/PoliticalDiscussion came from
 
-
+I need to finish tuning hyperparameters for these models, expect results soon.
 
 
 ### Conclusions
+
+With a large amount of data, thorough cleaning, and custom stop words, the binary classification of subreddit posts can be really effective! Each model created here performed exceptionally well, with train and test accuracies above 98% for each one. The Bernoulli Naive Bayes model with the TF-IDF vectorizer performed the best, though the differences in misclassifications between it and the SVM classifier were extremely minimal. The subreddits I chose for this project were quite distinct, so I'd be curious to see how these models perform with subreddits that are less distinguied from one another. I'd also like to see how well different classification models would do on this problem, like a logistic regression classifier or KNN. 
 
 ---
