@@ -82,7 +82,7 @@ Below are the prediction from the `BernoulliNB` with `TfidfVectorizer()`.
 
 With the TF-IDF vectorizer, the BernoulliNB model made even fewer errors. 
 
-Below are the predictions from the SVM classifier with `TfidfVectorizer`. 
+Below are the predictions from the `SVC` with `TfidfVectorizer()`. 
 
 
 |             | r/DMAcademy | r/truezelda |
