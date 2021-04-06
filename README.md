@@ -32,7 +32,7 @@ I separated each piece of my process for this project into a different notebook:
 
 ### Data Collection
 
-I used [Pushshift's](https://github.com/pushshift/api) API to full 5,000 posts from r/DMAcademy, 5,000 posts from r/truezelda, 5,000 comments from r/PoliticalDiscussion in 2012, and 5,000 comments from r/PoliticalDiscussion in 2020. 
+I used [Pushshift's](https://github.com/pushshift/api) API to pull 5,000 posts from r/DMAcademy, 5,000 posts from r/truezelda, 5,000 comments from r/PoliticalDiscussion in 2012, and 5,000 comments from r/PoliticalDiscussion in 2020. 
 
 ---
 
