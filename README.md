@@ -2,7 +2,7 @@
 
 This project showcases the use of Natural Language Processing (NLP) with classification models from the [scikit-learn library](https://scikit-learn.org/stable/index.html) in identifying which subreddit a given post came from. 
 
-This project is currently under development! - 04/03/21
+This project is on pause, will be finishing it up May 17-21, 2021!
 
 ---
 
